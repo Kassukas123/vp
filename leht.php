@@ -135,7 +135,6 @@
 			//loon andmebaasiga ühenduse
 			//server, kasutaja, parool, andmebaas
 			$conn = new mysqli($server_host, $server_user_name, $server_password, $database);
-			//määran suhtlemisel kasutatava kooditabeli
 			$conn->set_charset("utf8");
 			//valmistame ette andmete saatmise SQL käsu
 			//prepare käsk tähistab modernse koodi aegunud koodist!!!!!!
