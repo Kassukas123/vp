@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Student Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-20 10:31:39 AM"/>
+        <attribute name="created" value="U3R1ZGVudCBBZG1pbjtBNDA2LTEyOzIwMjItMDktMjA7MDg6MTk6MzAgQU07Mjg5NA=="/>
+        <attribute name="edited" value="U3R1ZGVudCBBZG1pbjtBNDA2LTEyOzIwMjItMDktMjA7MTA6MzE6MzkgQU07MjsyOTk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arv1, arv2" type="Integer" array="False" size=""/>
+            <input variable="arv1"/>
+            <input variable="arv2"/>
+            <if expression="arv1&gt;arv2">
+                <then>
+                    <output expression="&quot;Esimene&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="arv1==arv2">
+                        <then>
+                            <output expression="&quot;V&#245;rdsed&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Teine&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Bye!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
